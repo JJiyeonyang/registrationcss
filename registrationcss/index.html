@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script src="./jquery-3.6.1.js"></script>
+    <script src="./jquery-ui.js"></script>
+  </head>
+  <body>
+    <section>
+      <h1>회원가입</h1>
+      <br />
+      <form action="">
+        <div>
+          <label for="name">이름</label>
+          <input type="text" id="name" name="member" />
+        </div>
+        <br />
+        <div>
+          <label for="datepicker">생년월일</label>
+          <input type="text" id="datepicker" size="57" />
+        </div>
+        <br />
+        <p>레벨 선택</p>
+        <div>
+          <input type="radio" name="level" id="basic" />
+          <label for="level">초급</label>
+        </div>
+        <div>
+          <input type="radio" name="level" id="middle" />
+          <label for="level">중급</label>
+        </div>
+        <div>
+          <input type="radio" name="level" id="expert" />
+          <label for="level">상급</label>
+        </div>
+        <br />
+        <div>
+          <label for="email">이메일</label>
+          <input type="text" id="email" name="email" />
+          <br />
+          <label for="password">패스워드</label>
+          <input type="text" id="password" name="password" />
+        </div>
+        <br />
+        <div>
+          <label for="division">관심분야</label>
+          <select name="division" id="division">
+            <option value="it">IT</option>
+            <option value="design">디자인</option>
+            <option value="artandculture">문화예술</option>
+            <option value="math">수학</option>
+          </select>
+        </div>
+        <br />
+        <br />
+        <button>가입하기</button>
+      </form>
+    </section>
+  </body>
+</html>
